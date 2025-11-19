@@ -1,6 +1,7 @@
-# ismail - "Is My AI Lame?"
+# ismail - DeepSeek-V3 Inspired Turkish LLM Implementation
+![Status](https://img.shields.io/badge/Status-Untrained_Architecture-yellow)<br>
 
-**ismail** is a from-scratch Turkish language model implementation designed for low-end hardware, built and trained on a single RTX 5070 (12GB). This is my first LLM project, heavily inspired by [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) and built with guidance from [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch).
+**ismail** is a from-scratch Turkish language model implementation designed for low-end hardware, built and trained on a single RTX 5070 (12GB). This is my first LLM project, heavily inspired by [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) and built with guidance from [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch). Ismail utilizes Ali Bayram's [Turkish Tiktokenizer](https://huggingface.co/spaces/alibayram/turkish_tiktokenizer), a morphology-based tokenizer that achieves significantly better compression for agglutinative languages than standard BPE.
 
 **Language Focus**: ismail is trained exclusively on Turkish datasets using a custom morphology-aware tokenizer optimized for Turkish's agglutinative structure.
 
